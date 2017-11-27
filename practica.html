@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-physics-system@1.4.0/dist/aframe-physics-system.min.js"></script>
+</head>
+<body>
+    <a-scene physics>
+        <a-sky color="#2196f3">
+        </a-sky>
+        <a-box color ="#c6ff00" position ="-4 10 1"  dynamic-body>
+        </a-box>
+        <a-sphere color="#f50057" position="4 10 0" dynamic-body>
+        </a-sphere>
+        <a-cylinder color="#d50000" position="0 10 0" dynamic-body>
+        </a-cylinder>
+        <a-plane color="#ffab00"
+                 side="double"
+                 width="10" 
+                 height="10"
+                 rotation="90 0 0"
+                 static-body>
+        </a-plane>
+       
+
+    </a-scene>
+</body>
+</html>
