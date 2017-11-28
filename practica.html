@@ -10,13 +10,21 @@
 </head>
 <body>
     <a-scene physics>
+        <a-asset>
+            <img id="brick" src="/aframe/Brick.jpg">
+        </a-asset>
         <a-sky color="#2196f3">
         </a-sky>
-        <a-box color ="#c6ff00" position ="-4 10 1"  dynamic-body>
+        <a-box color ="#ffffff" 
+               src="/Brick.jpg"
+               width="10" 
+               height="4"
+               depth="1" 
+               position ="-1.560 2.431 1" >
         </a-box>
-        <a-sphere color="#f50057" position="4 10 0" dynamic-body>
+        <a-sphere color="#f50057" position="6.848 4.030 -2.265" >
         </a-sphere>
-        <a-cylinder color="#d50000" position="0 10 0" dynamic-body>
+        <a-cylinder color="#d50000" position="-1.344 4.551 -1.811" >
         </a-cylinder>
         <a-plane color="#ffab00"
                  side="double"
